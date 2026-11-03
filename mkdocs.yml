@@ -1,0 +1,88 @@
+site_name: 'ES — инженерные решения VodoplaV'
+site_description: 'Оборудование для дистанционного управления моторами, платформы, аппарели и связь для плавдомов и яхт'
+site_url: https://es.vodoplav.ru/
+site_author: Александр Бердников
+copyright: VodoplaV / Machogan, 2026
+
+repo_url: https://github.com/plavdom/es-site
+repo_name: plavdom/es-site
+edit_uri: blob/master/text/
+
+docs_dir: text
+site_dir: public
+use_directory_urls: true
+
+nav:
+  - 'Каталог': index.md
+  - 'Продукция':
+    - 'Управление моторами':
+      - products/EC325.md
+      - products/MT425.md
+      - products/EH125.md
+      - products/CH125.md
+      - products/ML324.md
+      - products/HS124.md
+      - products/HB124.md
+    - 'Посты управления':
+      - products/DRC225.md
+      - products/DRC226.md
+      - products/SRC225.md
+      - products/SRC226.md
+      - products/ARC126.md
+      - products/CRC000.md
+      - products/CP000.md
+    - 'Платформы и аппарели':
+      - products/SP121.md
+      - products/SP226.md
+      - products/BA118.md
+    - 'Связь и интернет':
+      - products/IA125.md
+    - 'Аксессуары':
+      - products/BT121.md
+    - 'Услуги':
+      - products/CW000.md
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.top
+    - navigation.footer
+    - content.action.view
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - glightbox
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram
+      name: Telegram
+      link: https://t.me/+79276867402

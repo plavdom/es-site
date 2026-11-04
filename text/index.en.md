@@ -6,31 +6,31 @@ We design and manufacture actuators and mechanical units: devices that remotely 
 
 <div class="cards" markdown>
 <a class="card" href="products/EC325/">
-  ![«EC325»](../img/EC325/00EC325.jpg)
+  ![«EC325»](img/EC325/00EC325.jpg)
   **EC325** — Engine Control
   <small>An electronic-mechanical unit for remote control of the gas and reverse of an outboard or stationary motor.</small>
   <em>$2,750</em>
 </a>
 <a class="card" href="products/MT425/">
-  ![«MT425»](../img/MT425/00MT425.jpg)
+  ![«MT425»](img/MT425/00MT425.jpg)
   **MT425** — Motor Turn
   <small>An electronic-mechanical unit for remote control of the turn.</small>
   <em>$3,600</em>
 </a>
 <a class="card" href="products/EH125/">
-  ![«EH125»](../img/EH125/00EH125.jpg)
+  ![«EH125»](img/EH125/00EH125.jpg)
   **EH125** — ENG-HUB
   <small>Switching unit for control of two motors.</small>
   <em>$930</em>
 </a>
 <a class="card" href="products/CH125/">
-  ![«CH125»](../img/CH125/00CH125.jpg)
+  ![«CH125»](img/CH125/00CH125.jpg)
   **CH125** — CTRL-HUB
   <small>A switching unit for organizing control from two posts.</small>
   <em>$680</em>
 </a>
 <a class="card" href="products/ML324/">
-  ![«ML324»](../img/ML324/00ML324.jpg)
+  ![«ML324»](img/ML324/00ML324.jpg)
   **ML324** — Motor Lift
   <small>A transom with an electric drive for adjusting the height of the outboard motor.</small>
   <em>$3,500</em>
@@ -53,19 +53,19 @@ We design and manufacture actuators and mechanical units: devices that remotely 
 
 <div class="cards" markdown>
 <a class="card" href="products/DRC225/">
-  ![«DRC225»](../img/DRC225/00DRC225.jpg)
+  ![«DRC225»](img/DRC225/00DRC225.jpg)
   **DRC225** — Remote Control
   <small>Remote control.</small>
   <em>$680</em>
 </a>
 <a class="card" href="products/DRC226/">
-  ![«DRC226»](../img/DRC226/00DRC226.jpg)
+  ![«DRC226»](img/DRC226/00DRC226.jpg)
   **DRC226** — Remote Control
   <small>Remote control.</small>
   <em>$1,050</em>
 </a>
 <a class="card" href="products/SRC225/">
-  ![«SRC225»](../img/SRC225/00SRC225.jpg)
+  ![«SRC225»](img/SRC225/00SRC225.jpg)
   **SRC225** — Remote Control
   <small>Remote control.</small>
   <em>$400</em>
@@ -77,7 +77,7 @@ We design and manufacture actuators and mechanical units: devices that remotely 
   <em>$550</em>
 </a>
 <a class="card" href="products/ARC126/">
-  ![«ARC126»](../img/ARC126/00ARC126.png)
+  ![«ARC126»](img/ARC126/00ARC126.png)
   **ARC126** — Remote Control App
   <small>Remote control of one or two motors from an Android device.</small>
   <em>price on request</em>
@@ -112,7 +112,7 @@ We design and manufacture actuators and mechanical units: devices that remotely 
   <em>price on request</em>
 </a>
 <a class="card" href="products/BA118/">
-  ![«BA118»](../img/BA118/00BA118.jpg)
+  ![«BA118»](img/BA118/00BA118.jpg)
   **BA118** — Ramp
   <small>Composite bow platform that descends onto the shore or pier.</small>
   <em>$10,400</em>
@@ -123,7 +123,7 @@ We design and manufacture actuators and mechanical units: devices that remotely 
 
 <div class="cards" markdown>
 <a class="card" href="products/IA125/">
-  ![«IA125»](../img/IA125/00IA125.jpg)
+  ![«IA125»](img/IA125/00IA125.jpg)
   **IA125** — Antenna
   <small>A directional device.</small>
   <em>$850</em>
@@ -134,7 +134,7 @@ We design and manufacture actuators and mechanical units: devices that remotely 
 
 <div class="cards" markdown>
 <a class="card" href="products/BT121/">
-  ![«BT121»](../img/BT121/00BT121.jpg)
+  ![«BT121»](img/BT121/00BT121.jpg)
   **BT121** — BoatSupport
   <small>A device for safely towing a boat.</small>
   <em>$490</em>

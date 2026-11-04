@@ -6,31 +6,31 @@ Wir entwickeln und fertigen Stellantriebe und mechanische Einheiten: Geräte, di
 
 <div class="cards" markdown>
 <a class="card" href="products/EC325/">
-  ![«EC325»](../img/EC325/00EC325.jpg)
+  ![«EC325»](img/EC325/00EC325.jpg)
   **EC325** — Engine Control
   <small>Elektronisch-mechanisches Gerät zur Fernsteuerung des Gases und der Umkehrung eines hängenden oder stationären Motors.</small>
   <em>2.300 €</em>
 </a>
 <a class="card" href="products/MT425/">
-  ![«MT425»](../img/MT425/00MT425.jpg)
+  ![«MT425»](img/MT425/00MT425.jpg)
   **MT425** — Motor Turn
   <small>Elektronisch-mechanisches Gerät zur Fernsteuerung der Drehung.</small>
   <em>3.000 €</em>
 </a>
 <a class="card" href="products/EH125/">
-  ![«EH125»](../img/EH125/00EH125.jpg)
+  ![«EH125»](img/EH125/00EH125.jpg)
   **EH125** — ENG-HUB
   <small>Schalteinheit zur Steuerung von zwei Motoren.</small>
   <em>830 €</em>
 </a>
 <a class="card" href="products/CH125/">
-  ![«CH125»](../img/CH125/00CH125.jpg)
+  ![«CH125»](img/CH125/00CH125.jpg)
   **CH125** — CTRL-HUB
   <small>Regelverteiler für die Organisation der Verwaltung mit zwei posts.</small>
   <em>610 €</em>
 </a>
 <a class="card" href="products/ML324/">
-  ![«ML324»](../img/ML324/00ML324.jpg)
+  ![«ML324»](img/ML324/00ML324.jpg)
   **ML324** — Motor Lift
   <small>Elektrisch verstellbarer Heck zur Höhenverstellung des Außenbordmotors.</small>
   <em>2.900 €</em>
@@ -53,19 +53,19 @@ Wir entwickeln und fertigen Stellantriebe und mechanische Einheiten: Geräte, di
 
 <div class="cards" markdown>
 <a class="card" href="products/DRC225/">
-  ![«DRC225»](../img/DRC225/00DRC225.jpg)
+  ![«DRC225»](img/DRC225/00DRC225.jpg)
   **DRC225** — Remote Control
   <small>Fernbedienung.</small>
   <em>610 €</em>
 </a>
 <a class="card" href="products/DRC226/">
-  ![«DRC226»](../img/DRC226/00DRC226.jpg)
+  ![«DRC226»](img/DRC226/00DRC226.jpg)
   **DRC226** — Remote Control
   <small>Fernbedienung.</small>
   <em>890 €</em>
 </a>
 <a class="card" href="products/SRC225/">
-  ![«SRC225»](../img/SRC225/00SRC225.jpg)
+  ![«SRC225»](img/SRC225/00SRC225.jpg)
   **SRC225** — Remote Control
   <small>Fernbedienung.</small>
   <em>350 €</em>
@@ -77,7 +77,7 @@ Wir entwickeln und fertigen Stellantriebe und mechanische Einheiten: Geräte, di
   <em>470 €</em>
 </a>
 <a class="card" href="products/ARC126/">
-  ![«ARC126»](../img/ARC126/00ARC126.png)
+  ![«ARC126»](img/ARC126/00ARC126.png)
   **ARC126** — Remote Control App
   <small>Fernbedienung mit einem oder zwei Motoren von einem Android-Gerät.</small>
   <em>Preis auf Anfrage</em>
@@ -112,7 +112,7 @@ Wir entwickeln und fertigen Stellantriebe und mechanische Einheiten: Geräte, di
   <em>Preis auf Anfrage</em>
 </a>
 <a class="card" href="products/BA118/">
-  ![«BA118»](../img/BA118/00BA118.jpg)
+  ![«BA118»](img/BA118/00BA118.jpg)
   **BA118** — Rampe
   <small>Eine zusammengesetzte Nasenplattform, die an Land oder Liegeplatz fällt.</small>
   <em>8.700 €</em>
@@ -123,7 +123,7 @@ Wir entwickeln und fertigen Stellantriebe und mechanische Einheiten: Geräte, di
 
 <div class="cards" markdown>
 <a class="card" href="products/IA125/">
-  ![«IA125»](../img/IA125/00IA125.jpg)
+  ![«IA125»](img/IA125/00IA125.jpg)
   **IA125** — Antenne
   <small>Richtungsgesteuertes Gerät.</small>
   <em>710 €</em>
@@ -134,7 +134,7 @@ Wir entwickeln und fertigen Stellantriebe und mechanische Einheiten: Geräte, di
 
 <div class="cards" markdown>
 <a class="card" href="products/BT121/">
-  ![«BT121»](../img/BT121/00BT121.jpg)
+  ![«BT121»](img/BT121/00BT121.jpg)
   **BT121** — BootStütz
   <small>Ein Gerät zum sicheren Abschleppen des Bootes.</small>
   <em>410 €</em>

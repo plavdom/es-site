@@ -3,7 +3,7 @@
 Katamaran-Schema: Gerät antippen, um die Seite zu öffnen.
 
 <div class="scheme" markdown="0">
-<img src="img/scheme/scheme_ru.png" alt="scheme">
+<img src="../../../img/scheme/scheme_ru.png" alt="scheme">
 <svg viewBox="0 0 595.3 567.0" preserveAspectRatio="none">
 <a href="products/DRC225/"><rect class="hotspot" x="478.4" y="76.5" width="90.1" height="14.7" rx="3"><title>Remote Control — Steuerpult</title></rect></a>
 <a href="products/DRC225/"><rect class="hotspot" x="478.4" y="91.2" width="85.1" height="14.7" rx="3"><title>Remote Control — Steuerpult</title></rect></a>

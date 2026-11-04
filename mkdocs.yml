@@ -2,7 +2,7 @@ site_name: 'ES — инженерные решения VodoplaV'
 site_description: 'Оборудование для дистанционного управления моторами, платформы, аппарели и связь для плавдомов и яхт'
 site_url: https://es.vodoplav.ru/
 site_author: Александр Бердников
-copyright: VodoplaV / Machogan, 2026
+copyright: VodoplaV, 2026
 
 repo_url: https://github.com/plavdom/es-site
 repo_name: plavdom/es-site
@@ -75,11 +75,45 @@ markdown_extensions:
       permalink: true
   - pymdownx.superfences
 
+extra_javascript:
+  - js/share.js
+
 plugins:
   - search
   - glightbox
   - minify:
       minify_html: true
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: ru
+          default: true
+          name: Русский
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Каталог: Catalog
+            Продукция: Products
+            Управление моторами: Engine control
+            Посты управления: Control posts
+            Платформы и аппарели: Platforms and gangways
+            Связь и интернет: Communication and internet
+            Аксессуары: Accessories
+            Услуги: Services
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            Каталог: Katalog
+            Продукция: Produkte
+            Управление моторами: Motorsteuerung
+            Посты управления: Steuerpulte
+            Платформы и аппарели: Plattformen und Rampen
+            Связь и интернет: Kommunikation und Internet
+            Аксессуары: Zubehör
+            Услуги: Dienstleistungen
 
 extra:
   social:

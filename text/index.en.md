@@ -1,50 +1,156 @@
 # Engineering solutions for houseboats and yachts
 
-**VodoplaV.** We design and manufacture remote engine control units, stern platforms, boarding ramps and on-board communication equipment.
+We design and manufacture actuators and mechanical units: devices that remotely control throttle and reverse, turn the engine, raise and lower platforms, drop a boarding ramp to the shore. Hardware that works on the water.
 
-## Catalog
+## Engine control
 
-### Engine control
+<div class="cards" markdown>
+<a class="card" href="products/EC325/">
+  ![«EC325»](../img/EC325/00EC325.jpg)
+  **EC325** — Engine Control
+  <small>An electronic-mechanical unit for remote control of the gas and reverse of an outboard or stationary motor.</small>
+  <em>$2,750</em>
+</a>
+<a class="card" href="products/MT425/">
+  ![«MT425»](../img/MT425/00MT425.jpg)
+  **MT425** — Motor Turn
+  <small>An electronic-mechanical unit for remote control of the turn.</small>
+  <em>$3,600</em>
+</a>
+<a class="card" href="products/EH125/">
+  ![«EH125»](../img/EH125/00EH125.jpg)
+  **EH125** — ENG-HUB
+  <small>Switching unit for control of two motors.</small>
+  <em>$930</em>
+</a>
+<a class="card" href="products/CH125/">
+  ![«CH125»](../img/CH125/00CH125.jpg)
+  **CH125** — CTRL-HUB
+  <small>A switching unit for organizing control from two posts.</small>
+  <em>$680</em>
+</a>
+<a class="card" href="products/ML324/">
+  ![«ML324»](../img/ML324/00ML324.jpg)
+  **ML324** — Motor Lift
+  <small>A transom with an electric drive for adjusting the height of the outboard motor.</small>
+  <em>$3,500</em>
+</a>
+<a class="card" href="products/HS124/">
+  <span class="ph"></span>
+  **HS124** — Hydraulic Selector
+  <small>Control of two motors with one steering wheel.</small>
+  <em>$6,000</em>
+</a>
+<a class="card" href="products/HB124/">
+  <span class="ph"></span>
+  **HB124** — Hydraulic Block
+  <small>Blocks the operation of one or more steering control posts.</small>
+  <em>$4,150</em>
+</a>
+</div>
 
-- [Engine Control «EC325»](products/EC325.md) — $2,750
-- [Motor Turn «MT425»](products/MT425.md) — $3,600
-- [ENG-HUB «EH125»](products/EH125.md) — $930
-- [CTRL-HUB «CH125»](products/CH125.md) — $680
-- [Motor Lift «ML324»](products/ML324.md) — $3,500
-- [Hydraulic Selector «HS124»](products/HS124.md) — $6,000
-- [Hydraulic Block «HB124»](products/HB124.md) — $4,150
+## Control posts
 
-### Control posts
+<div class="cards" markdown>
+<a class="card" href="products/DRC225/">
+  ![«DRC225»](../img/DRC225/00DRC225.jpg)
+  **DRC225** — Remote Control
+  <small>Remote control.</small>
+  <em>$680</em>
+</a>
+<a class="card" href="products/DRC226/">
+  ![«DRC226»](../img/DRC226/00DRC226.jpg)
+  **DRC226** — Remote Control
+  <small>Remote control.</small>
+  <em>$1,050</em>
+</a>
+<a class="card" href="products/SRC225/">
+  ![«SRC225»](../img/SRC225/00SRC225.jpg)
+  **SRC225** — Remote Control
+  <small>Remote control.</small>
+  <em>$400</em>
+</a>
+<a class="card" href="products/SRC226/">
+  <span class="ph"></span>
+  **SRC226** — Remote Control
+  <small>Remote control.</small>
+  <em>$550</em>
+</a>
+<a class="card" href="products/ARC126/">
+  ![«ARC126»](../img/ARC126/00ARC126.png)
+  **ARC126** — Remote Control App
+  <small>Remote control of one or two motors from an Android device.</small>
+  <em>price on request</em>
+</a>
+<a class="card" href="products/CRC000/">
+  <span class="ph"></span>
+  **CRC000** — Transformable control posts.
+  <small>Steering racks, consoles, tables, instrument panels.</small>
+  <em>price on request</em>
+</a>
+<a class="card" href="products/CP000/">
+  <span class="ph"></span>
+  **CP000** — A table-mounted panel for two engines.
+  <small>Table-mounted control panel (ignition, start, stop) for two engines.</small>
+  <em>price on request</em>
+</a>
+</div>
 
-- [Remote Control «DRC225»](products/DRC225.md) — $680
-- [Remote Control «DRC226»](products/DRC226.md) — $1,050
-- [Remote Control «SRC225»](products/SRC225.md) — $400
-- [Remote Control «SRC226»](products/SRC226.md) — $550
-- [Remote Control App «ARC126»](products/ARC126.md) — price on request
-- [Transformable control posts. «CRC000»](products/CRC000.md) — price on request
-- [A table-mounted panel for two engines. «CP000»](products/CP000.md) — price on request
+## Platforms and gangways
 
-### Platforms and gangways
+<div class="cards" markdown>
+<a class="card" href="products/SP121/">
+  <span class="ph"></span>
+  **SP121** — Aft bathing/transportation platform
+  <small>Aft bathing/transportation platform on four electric cylinders.</small>
+  <em>$16,500</em>
+</a>
+<a class="card" href="products/SP226/">
+  <span class="ph"></span>
+  **SP226** — Aft bathing/transportation platform
+  <small>Aft bathing/transportation platform on a bracket with electric drive.</small>
+  <em>price on request</em>
+</a>
+<a class="card" href="products/BA118/">
+  ![«BA118»](../img/BA118/00BA118.jpg)
+  **BA118** — Ramp
+  <small>Composite bow platform that descends onto the shore or pier.</small>
+  <em>$10,400</em>
+</a>
+</div>
 
-- [Aft bathing/transportation platform «SP121»](products/SP121.md) — $16,500
-- [Aft bathing/transportation platform «SP226»](products/SP226.md) — price on request
-- [Ramp «BA118»](products/BA118.md) — $10,400
+## Communication and internet
 
-### Communication and internet
+<div class="cards" markdown>
+<a class="card" href="products/IA125/">
+  ![«IA125»](../img/IA125/00IA125.jpg)
+  **IA125** — Antenna
+  <small>A directional device.</small>
+  <em>$850</em>
+</a>
+</div>
 
-- [Antenna «IA125»](products/IA125.md) — $850
+## Accessories
 
-### Accessories
+<div class="cards" markdown>
+<a class="card" href="products/BT121/">
+  ![«BT121»](../img/BT121/00BT121.jpg)
+  **BT121** — BoatSupport
+  <small>A device for safely towing a boat.</small>
+  <em>$490</em>
+</a>
+</div>
 
-- [BoatSupport «BT121»](products/BT121.md) — $490
+## Services
 
-### Services
-
-- [Installation, commissioning and configuration «CW000»](products/CW000.md) — price on request
-
-## About
-
-The equipment integrates with marine networks by [Yacht Devices](https://www.yachtd.com/) (NMEA 2000).
+<div class="cards" markdown>
+<a class="card" href="products/CW000/">
+  <span class="ph"></span>
+  **CW000** — Installation, commissioning and configuration
+  <small>.</small>
+  <em>price on request</em>
+</a>
+</div>
 
 ## Contacts
 

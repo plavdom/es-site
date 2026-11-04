@@ -7,7 +7,8 @@
     if(rest.charAt(rest.length-1)!=='/'&&rest.indexOf('.')<0)rest+='/';
     return base+(l==='ru'?rest:'/'+l+rest);
   }
-  var cur=location.pathname.indexOf('/en/')>=0?'en':location.pathname.indexOf('/de/')>=0?'de':'ru';
+  var path=location.pathname;
+  var cur=path.indexOf('/en/')>=0?'en':path.indexOf('/de/')>=0?'de':'ru';
   document.querySelectorAll('a[hreflang], .md-select__link').forEach(function(a){
     var l=a.getAttribute('hreflang')||a.getAttribute('lang');
     if(!l||l===cur) return;

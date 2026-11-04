@@ -14,6 +14,7 @@ use_directory_urls: true
 
 nav:
   - 'Каталог': index.md
+  - 'Схема': scheme.md
   - 'Продукция':
     - 'Управление моторами':
       - products/EC325.md
@@ -98,6 +99,7 @@ plugins:
           build: true
           nav_translations:
             Каталог: Catalog
+            Схема: Boat scheme
             Продукция: Products
             Управление моторами: Engine control
             Посты управления: Control posts
@@ -110,6 +112,7 @@ plugins:
           build: true
           nav_translations:
             Каталог: Katalog
+            Схема: Bootsschema
             Продукция: Produkte
             Управление моторами: Motorsteuerung
             Посты управления: Steuerpulte

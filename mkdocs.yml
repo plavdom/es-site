@@ -116,6 +116,16 @@ plugins:
             Услуги: Dienstleistungen
 
 extra:
+  alternate:
+    - name: Русский
+      link: /
+      lang: ru
+    - name: English
+      link: /en/
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
   social:
     - icon: fontawesome/brands/telegram
       name: Telegram

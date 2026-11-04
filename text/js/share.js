@@ -1,21 +1,18 @@
 (function(){
-  var path=location.pathname;
-  // language switcher
-  var m=path.match(/^(.*?\/(en|de))(\/|$)/);
-  var base=m?m[1]:'';
-  var cur=m?m[2]:'ru';
-  var rest=path.slice(base.length);
-  if(rest.charAt(rest.length-1)!=='/'&&rest.indexOf('.')<0)rest+='/';
-  function href(l){ if(l===cur) return null; if(l==='ru') return path.replace(base,'')||'/'; var clean=path.replace(base,''); if(clean.charAt(0)!=='/')clean='/'+clean; return base.replace(/\/(en|de)$/,'/'+l)+clean; }
-  var nav=document.createElement('div');
-  nav.style.cssText='position:absolute;top:8px;right:60px;z-index:50;font-size:.8rem;';
-  ['ru','en','de'].forEach(function(l){
-    var a=document.createElement('a'); a.textContent=l.toUpperCase();
-    var h=href(l); if(h){a.href=h;} else {a.style.fontWeight='700';a.style.opacity='.5';}
-    a.style.marginLeft='8px'; nav.appendChild(a);
+  function langPath(l){
+    var p=location.pathname;
+    var base=p.indexOf('/es-site/')===0?'/es-site':'';
+    var rest=base?p.slice(base.length):p;
+    rest=rest.replace(/^\/(en|de)(?=\/)/,'');
+    if(rest.charAt(rest.length-1)!=='/'&&rest.indexOf('.')<0)rest+='/';
+    return base+(l==='ru'?rest:'/'+l+rest);
+  }
+  var cur=location.pathname.indexOf('/en/')>=0?'en':location.pathname.indexOf('/de/')>=0?'de':'ru';
+  document.querySelectorAll('a[hreflang], .md-select__link').forEach(function(a){
+    var l=a.getAttribute('hreflang')||a.getAttribute('lang');
+    if(!l||l===cur) return;
+    a.href=langPath(l);
   });
-  var header=document.querySelector('.md-header .md-header__inner');
-  if(header) header.appendChild(nav);
   // share buttons on product pages
   var isProduct=/products\/[A-Z]+/.test(path);
   if(!isProduct) return;

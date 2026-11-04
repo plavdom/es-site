@@ -14,6 +14,14 @@
     if(!l||l===cur) return;
     a.href=langPath(l);
   });
+
+  // turn [Video](*.mp4) links into inline players
+  document.querySelectorAll('.md-content a[href$=".mp4"]').forEach(function(a){
+    var v=document.createElement('video');
+    v.controls=true; v.preload='metadata'; v.style.maxWidth='100%';
+    v.src=a.getAttribute('href');
+    a.replaceWith(v);
+  });
   // share buttons on product pages
   var isProduct=/products\/[A-Z]+/.test(path);
   if(!isProduct) return;

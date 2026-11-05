@@ -22,6 +22,19 @@
     v.src=a.getAttribute('href');
     a.replaceWith(v);
   });
+
+  // scheme hotspots: build absolute product URLs from language root (404-proof)
+  function prodUrl(m){
+    var p=location.pathname;
+    var base=p.indexOf('/es-site/')===0?'/es-site':'';
+    var rest=base?p.slice(base.length):p;
+    rest=rest.replace(/^\/(en|de)(?=\/)/,'');
+    rest=rest.replace(/scheme\/?$/,'');
+    return base+rest+'products/'+m+'/';
+  }
+  document.querySelectorAll('.scheme a[data-model]').forEach(function(a){
+    a.href=prodUrl(a.getAttribute('data-model'));
+  });
   // share buttons on product pages
   var isProduct=/products\/[A-Z]+/.test(path);
   if(!isProduct) return;

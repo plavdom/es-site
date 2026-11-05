@@ -80,5 +80,27 @@
       else if(href.indexOf('mailto:')===0){ a.href='mailto:1@vodoplav.ru?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(text); }
     });
   }
+
+  // Telegram private invites ignore ?text in mobile apps: copy the inquiry
+  // to clipboard so the user just pastes it.
+  document.querySelectorAll('.md-content a[href*="t.me/+"').forEach(function(a){
+    a.addEventListener('click', function(ev){
+      var m=(a.getAttribute('href').match(/text=([^&]+)/)||[])[1];
+      if(!m) return;
+      var text=decodeURIComponent(m);
+      ev.preventDefault();
+      var done=function(){
+        var note=document.createElement('div');
+        note.textContent='\u2705 '+(pageLang()==='ru'?'Текст запроса скопирован — вставьте его в Telegram':
+                          pageLang()==='de'?'Anfragetext kopiert \u2014 in Telegram einf\u00FCgen':
+                          'Inquiry text copied \u2014 paste it in Telegram');
+        note.style.cssText='padding:.6em 1em;margin:.5em 0;border-radius:6px;background:var(--md-primary-fg-color);color:var(--md-primary-bg-color);font-size:.85rem';
+        a.parentNode.insertBefore(note,a.nextSibling);
+        setTimeout(function(){note.remove()},6000);
+      };
+      if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(function(){ location.href=a.href; done(); },function(){ location.href=a.href; }); }
+      else { location.href=a.href; }
+    });
+  });
   wireContacts();
 })();

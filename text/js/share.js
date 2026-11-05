@@ -83,7 +83,7 @@
 
   // Telegram private invites ignore ?text in mobile apps: copy the inquiry
   // to clipboard so the user just pastes it.
-  document.querySelectorAll('.md-content a[href*="t.me/+"').forEach(function(a){
+  document.querySelectorAll('.md-content a[href*="t.me/+"], .md-content a[href*="t.me/share"]').forEach(function(a){
     a.addEventListener('click', function(ev){
       var m=(a.getAttribute('href').match(/text=([^&]+)/)||[])[1];
       if(!m) return;

@@ -76,10 +76,27 @@
     document.querySelectorAll('.md-content a[href*="t.me/+"], .md-content a[href*="wa.me/"], .md-content a[href^="mailto:"]').forEach(function(a){
       var href=a.getAttribute('href');
       if(href.indexOf('t.me/')>=0){
-        // bot deep link: pass model and language via start payload
+        // bot deep link: pass model and language via start payload.
+        // tg://resolve opens the installed app directly (site-in-browser on
+        // mobile and desktop Telegram both handle it); t.me stays as the
+        // web fallback for browsers without Telegram.
         var lang2=pageLang();
-        a.href='https://t.me/ES_VodoplaV_bot?start='+(lang2||'ru')+'_'+encodeURIComponent(model);
-        a.removeAttribute('target');
+        var payload=(lang2||'ru')+'_'+encodeURIComponent(model);
+        a.setAttribute('data-tg-app','tg://resolve?domain=ES_VodoplaV_bot&start='+payload);
+        a.setAttribute('data-tg-web','https://t.me/ES_VodoplaV_bot?start='+payload);
+        a.href=a.getAttribute('data-tg-web');
+        a.setAttribute('target','_blank');
+        a.addEventListener('click',function(ev){
+          // if a Telegram app is installed, hand off to it (isMobile check
+          // via UA because tg:// links silently fail in desktop web)
+          var ua=navigator.userAgent||'';
+          var isMobile=/Android|iPhone|iPad|iPod/i.test(ua);
+          if(isMobile){
+            ev.preventDefault();
+            location.href=a.getAttribute('data-tg-app');
+            setTimeout(function(){ if(!document.hidden) window.open(a.getAttribute('data-tg-web'),'_blank'); },1200);
+          }
+        });
       }
       else if(href.indexOf('wa.me/')>=0){ a.href='https://wa.me/+79276867402?text='+encodeURIComponent(text); }
       else if(href.indexOf('mailto:')===0){ a.href='mailto:1@vodoplav.ru?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(text); }

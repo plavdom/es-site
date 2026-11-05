@@ -57,4 +57,28 @@
   bar.appendChild(cp);
   var art=document.querySelector('.md-content__inner');
   if(art) art.insertBefore(bar, art.firstChild.nextSibling||art.firstChild);
+
+  // contact links with prefilled inquiry, like the source SPA
+  function pageLang(){ var p=location.pathname; return p.indexOf('/en/')>=0?'en':p.indexOf('/de/')>=0?'de':'ru'; }
+  function pageModel(){
+    var h=document.querySelector('h1');
+    if(!h) return null;
+    var m=h.textContent.match(/\u00AB([A-Z0-9]+)\u00BB/);
+    return m?m[1]:null;
+  }
+  var MSG={ru:'Интересует модель ',en:'Interested in model ',de:'Interessiert an Modell '};
+  var SUBJ={ru:'Запрос о модели ',en:'Inquiry about model ',de:'Anfrage \u00FCber Modell '};
+  function wireContacts(){
+    var model=pageModel(); if(!model) return;
+    var lang=pageLang();
+    var text=MSG[lang]+model;
+    var subj=SUBJ[lang]+model;
+    document.querySelectorAll('.md-content a[href*="t.me/+"], .md-content a[href*="wa.me/"], .md-content a[href^="mailto:"]').forEach(function(a){
+      var href=a.getAttribute('href');
+      if(href.indexOf('t.me/')>=0){ a.href='https://t.me/+79276867402?text='+encodeURIComponent(text); }
+      else if(href.indexOf('wa.me/')>=0){ a.href='https://wa.me/+79276867402?text='+encodeURIComponent(text); }
+      else if(href.indexOf('mailto:')===0){ a.href='mailto:1@vodoplav.ru?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(text); }
+    });
+  }
+  wireContacts();
 })();
